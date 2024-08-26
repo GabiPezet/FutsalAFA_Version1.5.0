@@ -16,8 +16,8 @@ public class EquipoDeFutbol {
 	}
 
 	/*
-	 * La capacidad m�xima de un equipo es 5. No se permiten jugadores repetidos (ya sea el n�mero o nombre del jugador)
-	 * Se retorna el resultado de la operaci�n
+	 * La capacidad maxima de un equipo es 5. No se permiten jugadores repetidos (ya sea el numero o nombre del jugador)
+	 * Se retorna el resultado de la operacion
 	 */
 	public boolean agregarJugador(Jugador nuevo) {
 		boolean resultado = false ;

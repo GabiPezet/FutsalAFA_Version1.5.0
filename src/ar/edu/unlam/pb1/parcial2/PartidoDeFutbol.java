@@ -33,7 +33,7 @@ public class PartidoDeFutbol {
 	
 	/*
 	 * Se debe marcar un nuevo Gol 
-	 * Dependiendo del autor (seg�n al equipo que pertenezca) y del tipo (si es a favor o en contra) se sabr� a quien contabilizarlo
+	 * Dependiendo del autor (segun al equipo que pertenezca) y del tipo (si es a favor o en contra) se sabra a quien contabilizarlo
 	 */
 	public void marcar(Evento gol) {
 		System.out.println(gol.toString());
@@ -86,11 +86,11 @@ public class PartidoDeFutbol {
 	
 	/*
 	 * Se registra un nuevo amonestado en el partido. 
-	 * Si el mismo ya pose�a una amonestaci�n previa, se lo debe expulsar. 
-	 * El m�todo devuelve la cantidad de amonestaciones del jugador. 
+	 * Si el mismo ya pose�a una amonestacion previa, se lo debe expulsar. 
+	 * El metodo devuelve la cantidad de amonestaciones del jugador. 
 	 * Los valores posibles de retorno son:
-	 * 1 - Si no ten�a amonestaci�n previa o 
-	 * 2 - Si ya pose�a una amonestaci�n previa y termina siendo expulsado
+	 * 1 - Si no ten�a amonestacion previa o 
+	 * 2 - Si ya pose�a una amonestacion previa y termina siendo expulsado
 	 * 
 	 */
 	public int amonestar(Evento amonestado) {
